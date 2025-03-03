@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormularioActivity">
+
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORMULARIO ALUMNO"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduzca el nombre:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/nombreEstudiante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=""
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewApe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduzca el primer apellido:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/apEstudiante1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=""
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewApe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduzca el segundo apellido:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/apEstudiante2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=""
+        android:inputType="text" />
+
+    <ImageButton
+        android:id="@+id/btnFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+</LinearLayout>
