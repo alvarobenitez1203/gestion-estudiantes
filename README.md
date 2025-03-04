@@ -1,5 +1,5 @@
 # Gestión Estudiantes
-Aplicación web para la gestión y consulta de estadísticas y datos de la NBA.
+Aplicación móvil que gestiona información de estudiantes con identificación por PIN almacenado.
 
 ## Tecnologías Utilizadas
 
